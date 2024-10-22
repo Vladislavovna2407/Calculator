@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+<div id="calculator" class="bg-grey border-radius-10">
+<div class="menu flex p-5">
+    <button class="circle red mr-5 ml-5"></button>
+    <button class="circle yellow mr-5"></button>
+    <button class="circle green"></button>
+</div>
+<div class="text-right">
+<span id="result" class="text-white font">0</span>
+</div>
+<div id="buttons">
+<div class="flex justify-content">
+    <button class="btn text-white btn-light-grey" id="clean">AC</button>
+    <button class="btn text-white btn-light-grey" id="sign">+/-</button>
+    <button class="btn text-white btn-light-grey" id="percentage">%</button>
+    <button class="btn text-white btn-orange" id="division">÷</button>
+</div>
+<div class="flex justify-content">
+    <button class="btn text-white btn-dark-grey" value="7" >7</button>
+    <button class="btn text-white btn-dark-grey" value="8">8</button>
+    <button class="btn text-white btn-dark-grey" value="9">9</button>
+    <button class="btn text-white btn-orange" id="multiplication">×</button>
+</div>
+<div class="flex justify-content">
+    <button class="btn text-white btn-dark-grey" value="4">4</button>
+    <button class="btn text-white btn-dark-grey" value="5" >5</button>
+    <button class="btn text-white btn-dark-grey" value="6">6</button>
+    <button class="btn text-white btn-orange" id="minus">-</button>
+</div>
+<div class="flex justify-content">
+    <button class="btn text-white btn-dark-grey" value="1">1</button>
+    <button class="btn text-white btn-dark-grey" value="2">2</button>
+    <button class="btn text-white btn-dark-grey" value="3">3</button>
+    <button class="btn text-white btn-orange" id="plus">+</button>
+</div>
+<div class="flex justify-content">
+    <div class="w-100">
+        <button class="btn text-white btn-dark-grey border-bottom-left-radius" value="0">0</button>
+    </div>
+    <div class="flex w-100 border-radius-10">
+        <button class="btn text-white btn-dark-grey" id="dot">,</button>
+        <button class="btn text-white btn-orange border-bottom-right-radius" id="equality">=</button>
+    </div>
+</div>
+</div>
+</div>
+    <script src="/js/calculator.js"></script>
+</body>
+</html>
