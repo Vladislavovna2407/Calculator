@@ -5,4 +5,5 @@
 Application structure:
 The css folder consists of a single css file.
 The js folder consists of a single JavaScript file.
+To launch eslinter use command npm run lint.
 
